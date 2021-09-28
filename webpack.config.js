@@ -21,6 +21,7 @@ module.exports = {
 		port: 3000,
 		host: '0.0.0.0',
 		liveReload: false,
+		watchFiles: './app/**/*.html',
 	},
 	mode: 'development',
 	module: {
