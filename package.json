@@ -1,10 +1,8 @@
 {
-  "name": "travel-site-files",
+  "name": "travel-site",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
   "scripts": {
-    "dev": "webpack",
+    "dev": "webpack serve",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,18 +17,18 @@
   },
   "homepage": "https://github.com/ChandalaSaturnino/travel#readme",
   "dependencies": {
-    "css-loader": "^6.3.0",
-    "lodash": "^4.17.21",
-    "normalize.css": "^8.0.1",
-    "style-loader": "^3.2.1"
+    "normalize.css": "^8.0.1"
   },
   "devDependencies": {
-    "autoprefixer": "^10.3.4",
-    "postcss-import": "^14.0.2",
-    "postcss-loader": "^6.1.1",
-    "postcss-nested": "^5.0.6",
-    "postcss-simple-vars": "^6.0.3",
-    "webpack": "^5.53.0",
-    "webpack-cli": "^4.8.0"
+    "autoprefixer": "^10.2.4",
+    "css-loader": "^5.0.1",
+    "postcss-import": "^14.0.0",
+    "postcss-loader": "^5.0.0",
+    "postcss-nested": "^5.0.3",
+    "postcss-simple-vars": "^6.0.2",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.20.0",
+    "webpack-cli": "^4.5.0",
+    "webpack-dev-server": "^4.3.0"
   }
 }
